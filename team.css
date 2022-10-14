@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0%;
 }
 
 body{
@@ -15,18 +16,48 @@ body{
 .parrafo{
     font-family: 'Poppins', sans-serif;
     margin-left: 2%;
+    margin-right: 10%;
 }
 
 .people{
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    margin-top: 20%; 
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 50%;
 }
 
 .people img{
     width: 100%; 
 }
 
+.image2{
+    margin-top: 30%;
+    width: 100%;
+    margin-left: 20%;
+}
+
+.image4 {
+    grid-area: main;
+    margin-top: 30%;
+    margin-left: 20%;
+    width: 100%;
+  }
+
+.image6{
+    margin-top: 30%;
+    margin-left: 20%;
+    width: 100%;
+}
+
+
+
 @media (min-width:1200px) {
+
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
     .people{
         display: flex;
@@ -36,6 +67,8 @@ body{
     .image:nth-of-type(2n){
         margin: 3em 2em;
     }
+
+   
     
 }
 
