@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5em 1em 2em 1em;
+}
+
+.parrafo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+}
+
+.people{
+    display: flex;
+    flex-flow: column;
+}
+
+.people img{
+    width: 100%; 
+}
+
+@media (min-width:1200px) {
+
+    .people{
+        display: flex;
+        flex-flow: nowrap;
+    }
+
+    .image:nth-of-type(2n){
+        margin: 3em 2em;
+    }
+    
+}
+
+
+
+
+
+
