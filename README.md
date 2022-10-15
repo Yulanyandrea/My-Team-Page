@@ -20,7 +20,8 @@ Imagen final para versión movil (aun esta en proceso de adaptación):
 ![mobile_final](https://user-images.githubusercontent.com/79812118/195961534-798d3be2-7853-479e-9f37-d2675c53f1f3.jpg)
 
 Imagen final para versión web (aun esta en proceso de adaptación):
-![desktop_final](https://user-images.githubusercontent.com/79812118/195961730-798cdf9c-f39f-49a9-887a-06fe36f47d66.jpg)
+![desktop_final](https://user-images.githubusercontent.com/79812118/195995867-ad13cba2-9e1c-4f05-8c36-8d858315ee8b.jpg)
+
 
 Que aprendi?
 
