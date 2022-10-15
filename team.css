@@ -145,6 +145,87 @@ body{
     
 }
 
+@media (min-width:3000px) {
+
+    .text{
+        margin-left: 8%;
+        margin-top: 10%;
+        font-size: 40px;
+    }
+
+    .parrafo{
+        /* display: grid;
+        grid-template-areas: "header footer" */
+        margin-left: 35%;
+        margin-top: -5%;
+        font-size: 40px;
+    }
+
+    /* .parrafo h2{
+        grid-area: header;
+    } */
+
+    .parrafo p{
+        margin-right: 46%;
+    }
+
+    .people{
+        display: grid;
+        grid-template-rows: 10%;
+        grid-template-areas: 
+        "header header header "
+        "footer footer footer";
+        margin-right: 50%;
+        margin-top: 5%; 
+        margin-bottom: 10%;
+    }
+
+    .image1{
+        width: 50%;
+        grid-area: header;    
+    }
+
+    .image2{
+        width: 50%;
+        grid-area: header; 
+        margin-left: 60%;   
+    }
+
+    .image3{
+        width: 50%;
+        grid-area: header; 
+        margin-left: 120%;
+        margin-right: 30%;   
+    }
+
+    .image4{
+        width: 50%;
+        grid-area: footer; 
+        margin-top: 100%; 
+        margin-left: 1%;  
+    }
+
+    .image5{
+        width: 50%;
+        grid-area: footer; 
+        margin-top: 120%; 
+        margin-left: 60%; 
+    }
+
+    .image6{
+        width: 50%;
+        grid-area: footer; 
+        margin-top: 100%; 
+        margin-left: 120%; 
+
+    }
+
+    .job{
+        font-size: 14px;
+    }
+    
+}
+
 
 
 
