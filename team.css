@@ -17,6 +17,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-left: 4%;
     margin-right: 10%;
+    
 }
 
 .people{
@@ -69,19 +70,22 @@ body{
 
     .text{
         margin-left: 8%;
+        margin-top: 10%;
     }
 
     .parrafo{
-        display: grid;
-        grid-template-areas: "header footer"
+        /* display: grid;
+        grid-template-areas: "header footer" */
+        margin-left: 35%;
+        margin-top: -5%;
     }
 
-    .parrafo h2{
+    /* .parrafo h2{
         grid-area: header;
-    }
+    } */
 
     .parrafo p{
-        grid-area: footer;
+        margin-right: 46%;
     }
 
     .people{
