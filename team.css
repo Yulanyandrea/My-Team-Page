@@ -75,7 +75,7 @@ body{
       }
     
     .image5{
-        margin-top: 70%;
+        margin-top: 59%;
     }
 
     .image6{
@@ -153,8 +153,9 @@ body{
     .image6{
         width: 50%;
         grid-area: footer; 
-        margin-top: 100%; 
+        margin-top: 70%; 
         margin-left: 120%; 
+        margin-top: 100%;
 
     }
 
