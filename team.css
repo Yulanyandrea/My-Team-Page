@@ -16,8 +16,7 @@ body{
 .parrafo{
     font-family: 'Poppins', sans-serif;
     margin-left: 4%;
-    margin-right: 10%;
-    
+    margin-right: 10%;  
 }
 
 .people{
@@ -65,7 +64,26 @@ body{
 }
 
 
+@media(min-width:760px) {
+    .image3{
+        margin-top: 50%;
+        
+    }
+    
+    .image4 {
+        margin-top: 70%;
+      }
+    
+    .image5{
+        margin-top: 70%;
+    }
 
+    .image6{
+        margin-top: 98%;
+    }
+    
+    
+}
 @media (min-width:1200px) {
 
     .text{
@@ -114,7 +132,8 @@ body{
         width: 50%;
         grid-area: header; 
         margin-left: 120%;
-        margin-right: 30%;   
+        margin-right: 30%;  
+        margin-top: 0%; 
     }
 
     .image4{
